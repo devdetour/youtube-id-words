@@ -1,5 +1,5 @@
 import { useVirtualizer } from "@tanstack/react-virtual";
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export function RowVirtualizerFixed(props: { data: string[]; filterStr: string }) {
   const allData = props.data;

@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
-import { FixedSizeList as List} from 'react-window'
 import './App.css'
 import { loadAllIds } from './load_data'
-import React from 'react'
 import { RowVirtualizerFixed } from './BigList'
 
 function App() {
