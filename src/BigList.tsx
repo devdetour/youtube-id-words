@@ -43,6 +43,8 @@ export const RowVirtualizerFixed = ({ allData }: { allData: string[]}) => {
 
   return (
     <div ref={listRef} style={{ width: '50vh', height: '100%', display: 'flex', flexDirection: 'column' }}>
+      <h3>Here are all the YouTube video IDs I found. You can type in the search box to filter for whatever words you want!</h3>
+
       <input
         type="text"
         value={filterStr}
